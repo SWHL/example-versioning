@@ -28,4 +28,4 @@ jobs:
       - run: pip install mike mkdocs-material jieba mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 mkdocs-git-authors-plugin
       - run: |
           git fetch origin gh-pages --depth=1
-          mike deploy 1.0
+          mike deploy --push --update-aliases 0.1 latest
