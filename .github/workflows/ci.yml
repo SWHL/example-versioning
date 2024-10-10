@@ -29,3 +29,4 @@ jobs:
       - run: |
           # git fetch origin gh-pages --depth=1
           mike deploy --push --update-aliases 0.1 latest
+          mike set-default --push latest
