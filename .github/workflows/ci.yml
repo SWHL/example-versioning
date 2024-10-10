@@ -29,4 +29,3 @@ jobs:
       - run: |
           mike deploy --push --update-aliases 2.8 latest
           mike set-default --push latest
-          mkdocs gh-deploy --force --ignore-version
